@@ -1,0 +1,39 @@
+html {
+  font-size: $value-primary;
+}
+
+body {
+  font-family: $font-primary;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: $font-weight-title;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2, blockquote {
+  font-size: 2.8rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+blockquote {
+  font-weight: $font-weight-title;
+}
+
+p {
+  font-weight: $font-weight-text;
+  font-size: 1.8rem;
+  line-height: 1.4;
+}
+

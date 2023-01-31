@@ -1,0 +1,21 @@
+.btn {
+  font-size: 1.6rem;
+  padding: 1.4rem 2.2rem;
+  border-radius: .8rem;
+  display: inline-block;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: $font-weight-title;
+  &.btn-primary {
+    background: $primary-color;
+    color: white;
+  }
+  &.btn-ghost-light {
+    border-color: $white;
+    color: $white;
+  }
+  &.btn-ghost-dark {
+    border-color: $secondary-color;
+    color: $secondary-color;
+  }
+}
