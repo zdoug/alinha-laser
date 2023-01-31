@@ -1,0 +1,119 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2, blockquote {
+  font-size: 2.8rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+blockquote {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1.4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  gap: 1.6rem;
+  max-width: 120rem;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.flex-direction-row {
+  flex-direction: row;
+}
+
+.mw-600 {
+  max-width: 60rem;
+}
+
+main, section {
+  padding-top: 6rem;
+  padding-bottom: 10rem;
+}
+
+main {
+  background: #000000;
+  color: #fff;
+}
+
+main, .services {
+  text-align: center;
+}
+
+.services ul {
+  flex-flow: wrap;
+  list-style: none;
+}
+.services ul li {
+  flex: 0 0 calc(25% - 16px);
+  background: aquamarine;
+}
+
+.quote {
+  padding-top: 10rem;
+  background: #000000;
+  color: #fff;
+  text-align: center;
+}
+
+footer {
+  padding: 6rem 0 8rem;
+  background: #2E2E2E;
+}
+
+.btn {
+  font-size: 1.6rem;
+  padding: 1.4rem 2.2rem;
+  border-radius: 0.8rem;
+  display: inline-block;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: 700;
+}
+.btn.btn-primary {
+  background: #D9292A;
+  color: white;
+}
+.btn.btn-ghost-light {
+  border-color: #fff;
+  color: #fff;
+}
+.btn.btn-ghost-dark {
+  border-color: #2E2E2E;
+  color: #2E2E2E;
+}
