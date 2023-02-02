@@ -27,6 +27,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 
+  <script src="https://kit.fontawesome.com/a4b1315ec3.js" crossorigin="anonymous"></script>
   <script src="js/scripts.min.js"></script>
 
   <title>Alinha Laser</title>
@@ -47,23 +48,33 @@
 <body>
 
   <main>
-    <div class="container mw-600">
+    <div class="container flex-direction-column mw-600">
       <img src="img/logo-alinha-laser.svg" alt="Alinha Laser">
       <h1>Procurando a melhor oficina de caminhões em Cambé/PR e Londrina/PR?</h1>
       <p>A sua busca acabou: somos a Alinha Laser, uma oficina mecânica especializada em mecânica preventiva e corretiva de caminhões em Cambé, Londrina e região norte do Paraná.</p>
       <div>
-        <a href="" class="btn btn-primary">Falar via WhatsApp</a>
-        <a href="" class="btn btn-ghost-light">Abrir Mapa</a>
+        <a href="" class="btn btn-primary">Falar via WhatsApp<i class="fab fa-whatsapp"></i></a>
+        <a href="" class="btn btn-ghost-light">Abrir Mapa<i class="fas fa-map-marker-alt"></i></a>
       </div>
     </div>
   </main>
 
   <section class="services">
-    <div class="container mw-600">
+    <div class="container flex-direction-column mw-600">
+      <svg width="50" height="40" viewBox="0 0 50 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M27.3026 17.2514C26.2335 14.7569 23.7604 13.0117 20.876 13.0117C17.014 13.0117 13.886 16.1428 13.886 20.0017C13.886 23.8607 17.017 26.9918 20.876 26.9918C23.7604 26.9918 26.2335 25.2435 27.3026 22.7521H45.6046L49.1621 17.2514H27.3026Z" fill="#DA282A"/>
+        <path d="M8.23917 11.0591C10.2645 11.0591 11.9063 9.41724 11.9063 7.39196C11.9063 5.36667 10.2645 3.72485 8.23917 3.72485C6.21388 3.72485 4.57207 5.36667 4.57207 7.39196C4.57207 9.41724 6.21388 11.0591 8.23917 11.0591Z" fill="#DA282A"/>
+        <path d="M33.7018 11.0591C35.7271 11.0591 37.3689 9.41724 37.3689 7.39196C37.3689 5.36667 35.7271 3.72485 33.7018 3.72485C31.6765 3.72485 30.0347 5.36667 30.0347 7.39196C30.0347 9.41724 31.6765 11.0591 33.7018 11.0591Z" fill="#DA282A"/>
+        <path d="M8.23917 36.1563C10.2645 36.1563 11.9063 34.5145 11.9063 32.4892C11.9063 30.4639 10.2645 28.8221 8.23917 28.8221C6.21388 28.8221 4.57207 30.4639 4.57207 32.4892C4.57207 34.5145 6.21388 36.1563 8.23917 36.1563Z" fill="#DA282A"/>
+        <path d="M4.50504 23.687C6.53033 23.687 8.17214 22.0452 8.17214 20.0199C8.17214 17.9946 6.53033 16.3528 4.50504 16.3528C2.47976 16.3528 0.83794 17.9946 0.83794 20.0199C0.83794 22.0452 2.47976 23.687 4.50504 23.687Z" fill="#DA282A"/>
+        <path d="M20.9704 7.3342C22.9957 7.3342 24.6375 5.69239 24.6375 3.6671C24.6375 1.64182 22.9957 0 20.9704 0C18.9451 0 17.3033 1.64182 17.3033 3.6671C17.3033 5.69239 18.9451 7.3342 20.9704 7.3342Z" fill="#DA282A"/>
+        <path d="M20.9704 40C22.9957 40 24.6375 38.3582 24.6375 36.3329C24.6375 34.3076 22.9957 32.6658 20.9704 32.6658C18.9451 32.6658 17.3033 34.3076 17.3033 36.3329C17.3033 38.3582 18.9451 40 20.9704 40Z" fill="#DA282A"/>
+        <path d="M33.7018 36.1563C35.7271 36.1563 37.3689 34.5145 37.3689 32.4892C37.3689 30.4639 35.7271 28.8221 33.7018 28.8221C31.6765 28.8221 30.0347 30.4639 30.0347 32.4892C30.0347 34.5145 31.6765 36.1563 33.7018 36.1563Z" fill="#DA282A"/>
+      </svg>
       <h2>Serviços</h2>
       <p>Desde 2001, prestamos serviços de manutenção preventiva e corretiva de caminhões, ônibus e vans. Somos uma equipe de 12 pessoas extremamente apaixonadas por mecânica de caminhões, onde prestamos os seguintes serviços:</p>
     </div>
-    <ul class="container flex-direction-row">
+    <ul class="container">
       <li>
         <a href=""><img src="" alt=""></a>
         <h3>Alinhamento e Balanceamento</h3>
@@ -100,39 +111,40 @@
   </section>
 
   <section class="quote">
-    <blockquote class="container mw-600">Rode com segurança nas estradas sabendo que o seu caminhão está com a manutenção em dia.</blockquote>
+    <div class="container mw-600">
+      <blockquote>Rode com segurança nas estradas sabendo que o seu caminhão está com a <em>manutenção em dia</em>.</blockquote>
+    </div>
   </section>
 
   <section class="contact">
     <div class="container flex-direction-row">
-      <img src="img/foto-alinha-laser-aerea.jpg" alt="Foto aérea da oficina Alinha Laser">
+      <img src="img/foto-alinha-laser-aerea.jpg" class="img-fluid" alt="Foto aérea da oficina Alinha Laser">
       <div class="data">
         <p>Se você é de Cambé/PR, Londrina/PR ou está de passagem pela região e está procurando uma oficina mecânica de confiança, você não precisa rodar mais! Somos a melhor oficina de caminhões da região!</p>
         <ul class="address">
-          <li>Estamos na Rod. Celso Garcia Cid, 2900<br />
+          <li><i class="fas fa-map-marker-alt"></i>Estamos na Rod. Celso Garcia Cid, 2900<br />
             Jardim Silvino, Cambé -PR.</li>
-          <li>Aberto de segunda à sexta-feira das 8h00 às 18h00</li>
+          <li><i class="far fa-clock" aria-hidden="true"></i>Aberto de segunda à sexta-feira das 8h00 às 18h00</li>
         </ul>
-        <a href="" class="btn btn-primary">Falar via WhatsApp</a>
-        <a href="" class="btn btn-ghost-dark">Abrir Mapa</a>
+        <a href="" class="btn btn-primary">Falar via WhatsApp<i class="fab fa-whatsapp"></i></a>
+        <a href="" class="btn btn-ghost-dark">Abrir Mapa<i class="fas fa-map-marker-alt"></i></a>
       </div>
     </div>
   </section>
 
   <footer>
-    <div class="container">
+    <div class="container flex-direction-column">
       <div class="column">
         <img src="img/logo-alinha-laser.svg" alt="Alinha Laser">
         <ul class="socials">
-          <li><a href="">Instagram</a></li>
-          <li><a href="">WhatsApp</a></li>
+          <li><a href=""><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+          <li><a href=""><i class="fab fa-whatsapp" aria-hidden="true"></i></a></li>
         </ul>
       </div>
       <div class="column">
-        <small>Todos os Direitos Reservados ® 2023</small>
-        <small>Alinha Laser LTDA.</small>
-        <small><a href="">Política de Privacidade</a></small>
-        <small>Website por <a href="https://ambigram.com.br">Ambigram</a></small>
+        <small>Todos os Direitos Reservados ® 2023 <br/>Alinha Laser LTDA.</small>
+        <small><a href="">Política de Privacidade</a><br />
+        Website por <a href="https://ambigram.com.br">Ambigram</a></small>
       </div>
     </div>
   </footer>

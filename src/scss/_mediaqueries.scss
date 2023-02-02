@@ -1,0 +1,36 @@
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 8px;
+  }
+  .container {
+    padding: 0 2rem;
+  }
+  main {
+    & img {
+      max-width: 250px;
+    }
+  }
+  .services ul {
+    justify-content: space-between;
+    & li {
+      flex: 0 0 calc(50% - 8px);
+    }
+  }
+  .quote {
+    padding: 6rem 0 8rem;
+  }
+  .contact {
+    & .container {
+      flex-direction: column;
+    }
+  }
+  footer {
+    & .column {
+      flex-direction: column;
+      row-gap: 2rem;
+    }
+    .flex-direction-column {
+      row-gap: 2rem;
+    }
+  }
+}

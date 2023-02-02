@@ -29,11 +29,17 @@ h3 {
 
 blockquote {
   font-weight: $font-weight-title;
+  line-height: 1.4;
+  & em {
+    border-bottom: 4px solid $primary-color;
+    font-style: normal;
+  }
 }
 
 p {
   font-weight: $font-weight-text;
   font-size: 1.8rem;
   line-height: 1.4;
+  color: $text-color;
 }
 

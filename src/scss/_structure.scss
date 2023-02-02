@@ -10,11 +10,11 @@
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  flex-direction: column;
 }
 
-.flex-direction-row {
-  flex-direction: row;
+.flex-direction-column {
+  flex-direction: column;
+  gap: initial;
 }
 
 .mw-600 {
@@ -26,32 +26,106 @@ main, section {
   padding-bottom: 10rem;
 }
 
+.img-fluid {
+  max-width: 100%;
+  display: block;
+}
+
 main {
-  background: $black;
+  background: linear-gradient(180deg, rgba(0,0,0,.25) 0%, rgba(0,0,0,.75) 25%,rgba(0,0,0,1) 75%), url(../img/caminhoes.jpg) no-repeat;
   color: $white;
+
+  & h1 {
+    margin: 3.6rem 0 2.4rem;
+  }
+
+  & p {
+    color: $white;
+  }
 }
 
 main, .services {
   text-align: center;
 }
 
-.services ul {
-  flex-flow: wrap;
-  list-style: none;
-  & li {
-    flex: 0 0 calc(25% - 16px);
-    background: aquamarine;
+.services {
+  & h2 {
+    margin: 2.8rem 0 1.6rem;
+  }
+
+  & ul {
+    flex-flow: wrap;
+    list-style: none;
+    align-items: stretch;
+    margin-top: 7rem;
+    & li {
+      flex: 0 0 calc(25% - 16px);
+      background: aquamarine;
+    }
   }
 }
 
 .quote {
   padding-top: 10rem;
-  background: $black;
+  background: linear-gradient(180deg, rgba(0,0,0,.25) 0%, rgba(0,0,0,.50) 25%,rgba(0,0,0,1) 90%), url(../img/caminhao-visto-cima.jpg) no-repeat top center fixed;
   color: $white;
   text-align: center;
+}
+
+.contact {
+  & .container {
+    column-gap: 11.2rem;
+  }
+  & .address li {
+    list-style: none;
+    font-size: 1.8rem;
+    font-weight: $font-weight-title;
+    color: $text-color;
+    margin-top: 2rem;
+    line-height: 1.4;
+    display: flex;
+    & i {
+      color: $primary-color;
+      margin-right: 2rem;
+      margin-top: 3px;
+      font-size: 2.25rem;
+    }
+  }
 }
 
 footer {
   padding: 6rem 0 8rem;
   background: $secondary-color;
+  & .flex-direction-column {
+    row-gap: 3rem;
+  }
+  & img {
+    max-width: 275px;
+  }
+  & small {
+    font-size: 1.6rem;
+    color: $white;
+    line-height: 1.5;
+    & a {
+      color: $white;
+    }
+  }
+  & .column {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    & .socials {
+      list-style: none;
+      & li {
+        font-size: 3rem;
+        display: inline-block;
+        &:first-child {
+          margin-right: 2rem;
+        }
+        a {
+          color: $white;
+        }
+      }
+    }
+  }
 }
