@@ -169,6 +169,47 @@ footer .column .socials li a {
   color: #fff;
 }
 
+.modal-bg {
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.modal-bg .modal-content {
+  background: #fff;
+  padding: 2rem 2rem 4rem;
+  min-width: 350px;
+  max-width: 400px;
+  border-radius: 8px;
+  position: relative;
+}
+.modal-bg .modal-content h3 {
+  margin: 1.6rem 0;
+}
+.modal-bg .modal-content p + p {
+  margin-top: 1.25rem;
+}
+.modal-bg .modal-content .close-modal {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: #D9292A;
+  display: block;
+  border: none;
+  position: absolute;
+  top: -18px;
+  right: -18px;
+}
+.modal-bg .modal-content .close-modal i {
+  font-size: 2rem;
+  color: #fff;
+}
+
 .btn {
   font-size: 1.6rem;
   padding: 1.4rem 2.2rem;

@@ -129,3 +129,44 @@ footer {
     }
   }
 }
+
+.modal-bg {
+  background: rgba(0,0,0,.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  & .modal-content {
+    background: $white;
+    padding: 2rem 2rem 4rem;
+    min-width: 350px;
+    max-width: 400px;
+    border-radius: 8px;
+    position: relative;
+    & h3 {
+      margin: 1.6rem 0;
+    }
+    & p + p {
+      margin-top: 1.25rem;
+    }
+    & .close-modal {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      background: $primary-color;
+      display: block;
+      border: none;
+      position: absolute;
+      top: -18px;
+      right: -18px;
+      & i {
+        font-size: 2rem;
+        color: $white;
+      }
+    }
+  }
+}
