@@ -40,6 +40,13 @@ window.onload = function() {
     });
   });
 
+  document.onkeydown = function(evt) {
+    if(evt.keyCode == 27) {
+      document.querySelector(".modal-bg.open").classList.remove("open");
+      document.body.classList.remove("overflow-hidden");
+      //alert("teste");
+    }
+  }
   
   
 };
