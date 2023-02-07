@@ -3,6 +3,7 @@ window.onload = function() {
   /* Open Modal */
   const openModal = modal => {
     let modalId = document.querySelector("#" + modal);
+    document.body.classList.add("overflow-hidden");
     modalId.classList.add("open");
   };
 
@@ -26,6 +27,7 @@ window.onload = function() {
         element.classList.remove("open");
         break;
     }
+    document.body.classList.remove("overflow-hidden");
   }
   let closeElements = document.querySelectorAll(".modal-bg, .close-modal");  
 
