@@ -1,3 +1,11 @@
+@media screen and (max-width: 450px) {
+  .modal-bg {
+    & .modal-content {
+      max-width: 86%;
+    }
+  }
+}
+
 @media screen and (max-width: 767px) {
   html {
     font-size: 8px;
@@ -22,6 +30,7 @@
   .contact {
     & .container {
       flex-direction: column;
+      justify-content: flex-start;
     }
   }
   footer {
@@ -31,6 +40,22 @@
     }
     .flex-direction-column {
       row-gap: 2rem;
+    }
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1019px) {
+  .contact {
+    & img {
+      display: none;
+    }
+  }
+}
+
+@media screen and (min-width: 1020px) and (max-width: 1200px) {
+  .contact {
+    & .container {
+      column-gap: 5rem;
     }
   }
 }
