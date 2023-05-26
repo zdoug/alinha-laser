@@ -127,9 +127,6 @@ main, .services {
 .services ul li a.thumb-service.thumb-quinta-roda {
   background-image: url(../../img/manutencao-quinta-roda.jpg);
 }
-.services ul li a.thumb-service.thumb-bomba-injetora {
-  background-image: url(../../img/bomba-injetora-caminhao.jpg);
-}
 .services ul li a.thumb-service.thumb-quarto-eixo {
   background-image: url(../../img/quarto-eixo.jpg);
 }
