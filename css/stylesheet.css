@@ -128,25 +128,25 @@ main, .services {
   transition: 0.3s linear;
 }
 .services ul li a.thumb-service.thumb-alinhamento {
-  background-image: url(../../img/alinhamento-balanceamento.jpg);
+  background-image: url(../img/alinhamento-balanceamento.jpg);
 }
 .services ul li a.thumb-service.thumb-freios {
-  background-image: url(../../img/freios.jpg);
+  background-image: url(../img/freios.jpg);
 }
 .services ul li a.thumb-service.thumb-embuchamento {
-  background-image: url(../../img/embuchamento-eixo.jpg);
+  background-image: url(../img/embuchamento-eixo.jpg);
 }
 .services ul li a.thumb-service.thumb-quinta-roda {
-  background-image: url(../../img/manutencao-quinta-roda.jpg);
+  background-image: url(../img/manutencao-quinta-roda.jpg);
 }
 .services ul li a.thumb-service.thumb-quarto-eixo {
-  background-image: url(../../img/quarto-eixo.jpg);
+  background-image: url(../img/quarto-eixo.jpg);
 }
 .services ul li a.thumb-service.thumb-pecas-acessorios {
-  background-image: url(../../img/pecas-acessorios-caminhao.jpg);
+  background-image: url(../img/pecas-acessorios-caminhao.jpg);
 }
 .services ul li a.thumb-service.thumb-alongamento-chassi {
-  background-image: url(../../img/alongamento-chassi.jpg);
+  background-image: url(../img/alongamento-chassi.jpg);
 }
 
 .quote {
